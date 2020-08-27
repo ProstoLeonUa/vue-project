@@ -1,4 +1,4 @@
-# project_hillel_leon
+# Project Vue (practice)
 
 ## Project setup
 ```
@@ -9,11 +9,12 @@ npm install
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
+### Start server
 ```
-npm run build
+node server
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### login/password
+```
+leon
+123
+```
