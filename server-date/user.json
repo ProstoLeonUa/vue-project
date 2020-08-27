@@ -1,0 +1,11 @@
+[{
+	"user": {
+		"id": 1,
+		"name": "leonid",
+		"login": "leon",
+		"password": 123,
+		"passwordConfirm": null,
+		"email": null,
+		"isAuthorized": true
+	}
+}]
