@@ -73,46 +73,7 @@ console.log(req.body);
 	res
 		.status(200)
 		.send('OK')
-	//fs.readFile(url, 'utf-8', (e, file) => {
-	//	res
-	//		.status(200)
-	//		.send(file);
-	//})
+
 
 })
-//app.post('/auth', (req, res) => {
-
-//	const { login, password } = JSON.parse(req.body);
-//	readFile(login, password)
-//		.then(response => {
-//			console.log(response, 'finaly response from server')
-//		})
-//		.catch((e) => console.log(e));
-
-//})
-
-//async function readFile(login, password) {
-
-//	try {
-//		const url = "./server-date/user.json";
-//		const response =  fs.readFile(url, 'utf-8', (error, payload) => {
-//			const data = JSON.parse(payload);
-//			console.log(check(data, login, password))
-//			return check(data, login, password);
-
-//		})
-//		console.log(response)
-//	} catch (e) {
-//		throw Error
-//	}
-
-//}
-//function check(data, login, password) {
-
-//	const response = data.filter(item => {
-//		const { user } = item;
-//		return (login == user.login && password == user.password)
-//	})
-//	return response;
-//}
 
